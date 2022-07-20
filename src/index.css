@@ -1,0 +1,121 @@
+body{
+    background-color: rgb(218, 190, 156); 
+    padding: 40px; 
+    margin: 0px;
+}
+
+h1, h2, h3, p, ul, li {
+    font-family: sans-serif;
+}
+
+ul.header li {
+    display: inline-block; 
+    list-style-type: none; 
+    margin: 10px;
+}
+
+ul.header {
+    background-color: rgb(29, 28, 28); 
+    padding: 15px 15px;
+}
+ul.header li a {
+    color: rgb(226, 215, 215); 
+    font-weight: bold; 
+    text-decoration: none; 
+    padding: 30px; 
+    display: inline;
+}
+
+.content {
+    background-color: rgba(248, 248, 248, 0.562); 
+    padding: 30px;
+}
+.content h2 {
+    padding: 10px; margin: 0;
+}
+.content li {
+    margin-bottom: 10px;
+    align-items: center;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(12rem, 17rem));
+    gap: 10rem;
+    justify-content: center;
+    
+}
+
+.card{
+    overflow: hidden;
+    box-shadow: 2px 4px 4px black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    cursor: pointer;
+    transition: transform 200ms ease-in;
+    padding: 10px;
+}
+
+.card_image{
+    height: 15rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card_title {
+    padding: 1rem;
+    text-align: center;
+    padding-top: 5px;
+}
+.card_description{
+    padding: 0 1rem;
+    text-align: center;
+    text-indent: 3px;
+}
+
+.card_btn{
+    padding: 1rem;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 1rem;
+    border: 2px solid black;
+    display: flex;
+    background: rgb(189, 162, 146);
+    color: black;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    padding-left: 70px;
+    padding-right: 50px;
+}
+.human_image{
+    height: 20rem;
+    width: 100%;
+    border-radius: 50px;
+    object-fit:contain;
+    background: transparent;
+}   
+.job_btn{
+    padding: 1rem;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    background: lightgrey;
+    border-radius: 5px;
+    text-align: center;
+    padding-left: 90px;
+    padding-right: 50px;
+}
+
+.inputFields{
+    padding: 10px;
+    margin-top: 10px;
+}
+
+
+
